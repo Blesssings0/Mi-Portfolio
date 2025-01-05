@@ -33,7 +33,9 @@ body {
 .Home {
   max-width: 100%;
   width: 390px;
+  height:80svh ;
   padding: 24px;
+  
   
 }
 
@@ -242,22 +244,25 @@ margin-block: 15px;
 }
 
 .skills-items {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 327px;
+  
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  flex-flow: wrap;
+  gap: 10px;
   margin-block: 20px;
-  max-width: 100%;
+  
 }
 
 .img-skills {
-  width: 84px;
-  height: 84px;
+
   margin-block: 15px;
   text-align: center;
-  place-content: center;
-  place-items: center;
-  border-radius: 20px;
+
+  img{
+    max-width: 100%;
+object-fit:cover;
+  }
+  
 }
 
 .container-img {
@@ -268,17 +273,6 @@ margin-block: 15px;
   }
 }
 
-.container-img:nth-child(1) .img-skills {
-  background: #38bdf8;
-}
-
-.container-img:nth-child(2) .img-skills {
-  background: #08f052;
-}
-
-.container-img:nth-child(3) .img-skills {
-  background: #0461a3;
-}
 
 /* -----Contact------- */
 
