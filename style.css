@@ -10,7 +10,7 @@ body {
 
 .Cabeza {
   max-width: 100%;
-  width: 375px;
+  width: 390px;
   padding: 24px;
   background-color: aliceblue;
 }
@@ -32,7 +32,7 @@ body {
 /* AREA HOMEE */
 .Home {
   max-width: 100%;
-  width: 375px;
+  width: 390px;
   padding: 24px;
 }
 
@@ -106,7 +106,7 @@ body {
 
 .Projects {
   max-width: 100%;
-  width: 375px;
+  width: 390px;
   padding: 24px;
 }
 
@@ -179,7 +179,7 @@ body {
 
 .Me {
   max-width: 100%;
-  width: 375px;
+  width: 390px;
   padding: 24px;
 }
 
@@ -228,7 +228,7 @@ margin-block: 15px;
 
 .Skills {
   max-width: 100%;
-  width: 375px;
+  width: 390px;
   padding: 24px;
 
   h1 {
@@ -281,7 +281,7 @@ margin-block: 15px;
 /* -----Contact------- */
 
 .Contact {
-  width: 375px;
+  width: 390px;
   padding: 24px;
   background: #111827;
   color: white;
