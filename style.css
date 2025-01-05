@@ -10,7 +10,7 @@ body {
 
 .Cabeza {
   max-width: 100%;
-  width: 390px;
+  width: 375px;
   padding: 24px;
   background-color: aliceblue;
 }
@@ -32,7 +32,7 @@ body {
 /* AREA HOMEE */
 .Home {
   max-width: 100%;
-  width: 390px;
+  width: 375px;
   padding: 24px;
 }
 
@@ -42,8 +42,8 @@ body {
 }
 
 .feature-home {
-  max-height: 100%;
-  height: 530px;
+  max-height: fit-content;
+  height: 530pxs;
   padding: 24px;
   display: flex;
   flex-direction: column;
@@ -55,14 +55,13 @@ body {
   border-radius: 20px;
 }
 
-.home-img {
-  width: 100px;
-  height: 100px;
-  background-image: url(/assets/eec894f09368d80ccf5d5165bbafb5ba-sticker.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #effffa;
-  border-radius: 50%;
+.home-img img{
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+  background: #fbfefd;
+  padding: 5px;
+  
 }
 
 .home-description {
@@ -107,7 +106,7 @@ body {
 
 .Projects {
   max-width: 100%;
-  width: 390px;
+  width: 375px;
   padding: 24px;
 }
 
@@ -152,7 +151,7 @@ body {
   max-width: 100%;
   width: 327px;
   height: 294px;
-  background-color: #ed7854;
+  background-color: #c8ebf0;
   margin-block: 10px;
   border-radius: 18px;
 }
@@ -180,7 +179,7 @@ body {
 
 .Me {
   max-width: 100%;
-  width: 390px;
+  width: 375px;
   padding: 24px;
 }
 
@@ -191,13 +190,16 @@ body {
   line-height: 50px;
 }
 
-.img-me {
-  max-width: 100%;
-  width: 327px;
-  height: 243px;
-  margin-block: 15px;
-  background: gray;
-  border-radius: 12px;
+.img-me{
+ 
+margin-block: 15px;
+  
+  img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #0461a3;
+  }
 }
 
 .article-me {
@@ -226,7 +228,7 @@ body {
 
 .Skills {
   max-width: 100%;
-  width: 390px;
+  width: 375px;
   padding: 24px;
 
   h1 {
@@ -279,7 +281,7 @@ body {
 /* -----Contact------- */
 
 .Contact {
-  width: 390px;
+  width: 375px;
   padding: 24px;
   background: #111827;
   color: white;
