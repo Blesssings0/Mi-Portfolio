@@ -62,7 +62,7 @@ body {
 .home-img img{
   width: 150px;
   height: 150px;
-  border-radius: 10%;
+  border-radius: 50%;
   background: #fbfefd;
   padding: 5px;
   
@@ -75,6 +75,7 @@ body {
   font-weight: 600;
   text-align: center;
   line-height: 38px;
+ 
 
   & .text-azul {
     color: aqua;
@@ -270,6 +271,7 @@ object-fit:cover;
     font-family: "Poppins", serif;
     font-size: 20px;
     text-align: center;
+   
   }
 }
 
