@@ -34,6 +34,7 @@ body {
   max-width: 100%;
   width: 390px;
   padding: 24px;
+  
 }
 
 .Home h3 {
@@ -47,6 +48,7 @@ body {
   padding: 24px;
   display: flex;
   flex-direction: column;
+  gap: 1rem;
   background: linear-gradient(90deg,
       rgba(251, 237, 150, 1) 35%,
       rgba(171, 236, 214, 1) 100%);
