@@ -10,7 +10,7 @@ body {
 
 .Cabeza {
   max-width: 100%;
-  width: 390px;
+  width: 481px;
   padding: 24px;
   background-color: aliceblue;
 }
@@ -32,8 +32,7 @@ body {
 /* AREA HOMEE */
 .Home {
   max-width: 100%;
-  width: 390px;
-  height:80svh ;
+  width: 481px;
   padding: 24px;
   
   
@@ -45,8 +44,8 @@ body {
 }
 
 .feature-home {
-  max-height: fit-content;
-  height: 530pxs;
+  max-height: 100%;
+  height: 530px auto;
   padding: 24px;
   display: flex;
   flex-direction: column;
@@ -111,7 +110,7 @@ body {
 
 .Projects {
   max-width: 100%;
-  width: 390px;
+  width: 481px;
   padding: 24px;
 }
 
@@ -154,7 +153,6 @@ body {
 
 .projects-img {
   max-width: 100%;
-  width: 327px;
   height: 294px;
   background-color: #c8ebf0;
   margin-block: 10px;
@@ -184,7 +182,7 @@ body {
 
 .Me {
   max-width: 100%;
-  width: 390px;
+  width: 481px;
   padding: 24px;
 }
 
@@ -233,7 +231,7 @@ margin-block: 15px;
 
 .Skills {
   max-width: 100%;
-  width: 390px;
+  width: 481px;
   padding: 24px;
 
   h1 {
@@ -279,7 +277,8 @@ object-fit:cover;
 /* -----Contact------- */
 
 .Contact {
-  width: 390px;
+  max-width: 100%;
+  width: 481px;
   padding: 24px;
   background: #111827;
   color: white;
@@ -295,10 +294,17 @@ object-fit:cover;
   font-family: "Poppins", serif;
   font-size: 20px;
   line-height: 30px;
+  margin-top:10px ;
 }
 
 .cta-me {
   margin-block: 19px;
+
+  
+}
+
+.Redes-Sociales{
+  margin-top: 10px;
 }
 
 .Foters {
@@ -312,3 +318,4 @@ object-fit:cover;
     font-family: "Poppins", serif;
   }
 }
+
