@@ -21,6 +21,10 @@ body {
   align-items: end;
 }
 
+.bx-menu{
+  display: block;
+}
+
 .head-title {
   font-family: "Poppins", serif;
 }
@@ -243,23 +247,20 @@ margin-block: 15px;
 }
 
 .skills-items {
-  
+  max-width: 100%;
   display: grid;
   grid-template-columns: repeat(3,1fr);
   flex-flow: wrap;
   gap: 10px;
-  margin-block: 20px;
-  
-}
+  margin-block: 20px;}
 
 .img-skills {
-
   margin-block: 15px;
   text-align: center;
 
   img{
     max-width: 100%;
-object-fit:cover;
+    object-fit:contain;
   }
   
 }
@@ -267,9 +268,8 @@ object-fit:cover;
 .container-img {
   p {
     font-family: "Poppins", serif;
-    font-size: 20px;
+    font-size:20px auto;
     text-align: center;
-   
   }
 }
 
@@ -319,3 +319,215 @@ object-fit:cover;
   }
 }
 
+  
+@media (min-width: 481px) and (max-width: 900px) {
+  
+  /* CSS */
+  .Cabeza{
+    width: 100%;
+    padding-inline:70px ;
+  }
+
+  .Home{
+    max-width: 100%;
+    width: 900px;
+    padding: 70px;
+  }
+
+
+  .feature-home{
+    padding: 70px;
+  }
+
+  .Me{
+    max-width:100% ;
+    width: 900px;
+    padding: 70px;
+  }
+
+  .container-me{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    margin-block: 10px;
+  }
+  
+  .Skills{
+    max-width: 100%;
+    width: 900px;
+    padding: 70px;
+  }
+
+  .Projects{
+    max-width: 100%;
+    width: 900px;
+    padding: 70px;
+  }
+
+  .Contact{
+    max-width: 100%;
+    width: 900px;
+    padding: 70px;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1024px) {
+ /* CSS */
+ .Cabeza{
+  max-width: 100%;
+  width: 1024px;
+  padding-inline:70px ;
+}
+
+.Home{
+  max-width: 100%;
+  width: 1024px;
+  padding: 70px;
+}
+
+
+.feature-home{
+  padding-inline: 70px;
+}
+
+.Me{
+  max-width:100% ;
+  width: 1024px;
+  padding: 70px;
+}
+
+.container-me{
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  margin-block: 10px;
+}
+
+.Skills{
+  max-width: 100%;
+  width: 1024px;
+  padding: 70px;
+}
+
+.Projects{
+  max-width: 100%;
+  width: 1024px;
+  padding: 70px;
+}
+
+.Contact{
+  max-width: 100%;
+  width: 1024px;
+  padding: 70px;
+}
+}
+
+
+@media (min-width:1024px ){
+  /* CSS */
+  .Cabeza{
+   max-width: 100%;
+   width:1900px;
+   padding-inline:100px ;
+ }
+
+ .Bar-Nav{
+  display: flex;
+  justify-content: space-around;
+ }
+ 
+
+ .Home{
+   max-width: 100%;
+   width:1900px;
+   padding-inline: 100px;
+ }
+ 
+ .feature-home{
+  max-width: 100%;
+  width: 1000px;
+  margin: auto;
+   padding-block: 5rem;
+
+   p{
+    width: 500px;
+   }
+ }
+ 
+ .Me{
+   max-width:100% ;
+   width:1900px;
+   padding-inline: 100px;
+   text-align: center;
+
+   
+ }
+ 
+ .article-me{
+  flex-direction: column-reverse;
+  hr{
+    margin:16px auto;
+    width: 100px;
+  }
+ }
+
+ .container-me{
+  max-width: 100%;
+  width: 1000px;
+  margin: auto;
+  
+    margin-block: 10px;
+
+   p{
+     align-items: center;
+     place-content: center;
+   }
+
+ }
+ 
+ .Skills{
+   max-width: 100%;
+   width:1000px;
+   margin: auto;
+   padding-inline: 100px;
+   text-align: center;
+ }
+ 
+ 
+
+ .skills-items{
+  display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: repeat(2, auto);
+
+ }
+
+ .Projects{
+   max-width: 100%;
+   width:1900px;
+   margin: auto ;
+   padding-inline: 100px;
+
+
+ }
+   .projects-Title{
+    text-align: center;
+   }
+ 
+ .Projects-container{
+  max-width: 100%;
+  margin: auto;
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+ }
+ 
+
+ 
+ .Contact{
+   max-width: 100%;
+   width:1900px;
+   padding-inline: 100px;
+   text-align: center;
+ }
+ }
