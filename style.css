@@ -447,7 +447,6 @@ margin-block: 15px;
   max-width: 100%;
   width: 1000px;
   margin: auto;
-   padding-block: 5rem;
 
    p{
     width: 500px;
@@ -520,6 +519,7 @@ margin-block: 15px;
   width: 1000px;
   display: flex;
   justify-content: space-around;
+  gap: 20px;
  }
  
 
