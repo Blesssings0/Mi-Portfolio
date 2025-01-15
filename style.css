@@ -9,7 +9,7 @@
 } */
 
 
-
+/* 
 @media (prefers-color-scheme: dark) {
   .Bar-Nav h1 {
     color: black;
@@ -34,9 +34,9 @@
   i {
     color: white;
   }
-}
+} */
 
-@media (prefers-color-scheme:light) {
+/* @media (prefers-color-scheme:light) {
   .Bar-Nav h1 {
     color: black;
   }
@@ -52,7 +52,7 @@
  div.links-projects i{
   color: black;
  }
-}
+} */
 
 .Cabeza {
   max-width: 100%;
@@ -657,7 +657,7 @@
   .Projects-container {
     max-width: 100%;
     margin: auto;
-    width: 1024px;
+    width: 1250px;
     display: flex;
     justify-content: space-around;
     gap: 20px;
@@ -665,11 +665,13 @@
 
   .projects-img img {
     max-width: 100%;
-    width: 400px;
-    height: 300px;
+    width: 400vw;
+    height: 35vh;
+    margin-top: 10px;
      object-fit:contain;
-    margin: auto;
+
   }
+  
 
   .Contact {
     max-width: 100%;
